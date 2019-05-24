@@ -14,20 +14,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Do this once per new project.
+Go to https://github.com and make sure you are logged in.
+Click green “New repository” button. Or, if you are on your own profile page, click on “Repositories”, then click the green “New” button.
+Repository name: myrepo (or whatever you wish)
+Public
+YES Initialize this repository with a README
+Click the big green button “Create repository.”
+Copy the HTTPS clone URL to your clipboard via the green “Clone or Download” button. Or copy the SSH URL if you chose to set up SSH keys.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+THEN ON SECOND COMPUTER
+Open RStudio
+Start a new project under version contrl
+Copy repository URL
+create as subdirectory (same name)
+do a pull to bring everything into 2nd computer
 
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+From then on, whenever you start working on the project, always pull first
